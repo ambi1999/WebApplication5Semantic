@@ -19,11 +19,14 @@ namespace WebApplication5Semantic.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "ambi Your application description page.";
+            ViewBag.Message = "ambi 2222 Your application description page.";
 
             string str1 = "";
 
             Debug.WriteLine("************ inside about");
+
+            //Remote SPARQL endpoints query
+            //Source: https://github.com/dotnetrdf/dotnetrdf/wiki/UserGuide-Querying-With-SPARQL
 
 
             //Define a remote endpoint
